@@ -44,7 +44,7 @@ typedef enum { FALSE, TRUE } bool;
 
 bool gen;
 
-int oem_key_year[2] = {0, 0}; // 2 - gen_oem_year
+int oem_key_year[2] = {1, 1}; // 2 - gen_oem_year
 int oem_key_5[5];
 int oem_key_5_random[5];
 int retail_key_1[3];
@@ -68,12 +68,10 @@ void gen_oem_year()
 {
     do
     {
-        for(i = 0; i < 2; i++)
-        {
-            oem_key_year[i] = rand() % DIGIT_RANGE;
-        }
+        oem_key_year[0] = rand() % DIGIT_RANGE;
+        oem_key_year[1] = rand() % DIGIT_RANGE;
     }
-    while((oem_key_year[0] != 9 && oem_key_year[1] < 5) || (oem_key_year[0] != 0 && oem_key_year[1] >= 3));
+    while((oem_key_year[0] != 9 && oem_key_year[1] < 5) && (oem_key_year[0] != 0 && oem_key_year[1] >= 3));
 }
 
 void gen_5digits_oem()
