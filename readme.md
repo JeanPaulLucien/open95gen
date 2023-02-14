@@ -24,15 +24,12 @@
 
 <a name=downloads><h2>Downloads</h2></a>
 <h3>Version 1.0 (2/7/2021)</h3>
-<p><a href=https://github.com/alex-free/open95keygen/releases/download/1.0/open95keygen_1.0_win32.zip>Windows 95-Windows 10 (x86)</a></p>
-<p><a href=https://github.com/alex-free/open95keygen/releases/download/1.0/open95keygen_1.0_classic_mac_os.sit>Mac OS 8-Mac OS 9 (68K/PowerPC)</a></p>
-<p><a href=https://github.com/alex-free/open95keygen/releases/download/1.0/open95keygen_1.0_mac_os_x_powerpc.zip>Mac OS X 10.3.9-10.6.8 (PowerPC)</a></p>
-<p><a href=https://github.com/alex-free/open95keygen/releases/download/1.0/open95keygen_1.0_linux_x86.zip>Linux (x86)</a></p>
-<p><a href=https://github.com/alex-free/open95keygen/releases/download/1.0/open95keygen_1.0_linux_x86_64.zip>Linux (x86_64)</a></p>
 <p><a href=https://github.com/alex-free/open95keygen/archive/1.0.zip>Source Code</a></p>
 <p>View <a href=https://github.com/alex-free/open95keygen/releases/>all releases</a>.</p>
 
 <a name=compat><h2>Supported Operating Systems</h2></a>
+
+Windows 95+, Mac OS, Linux
 
 <p>The win32 release works on Windows 95 and newer (requires Internet Explorer 4.0 installed if using Windows 95).</p>
 <p>The Linux releases for x86 32 bit and x86_64 64 bit are static executables meaning they should work on most modern distros. If the Linux versions provided does not work for you, please compile from <a href="#install_source">source</a>.</p>
