@@ -38,19 +38,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <time.h>
 
 #define DIGIT_RANGE 10
-#define OEM_DAY_RANGE 367
+#define OEM_DAY_RANGE 366
 
 typedef enum { FALSE, TRUE } bool;
 
 bool gen;
 
-int oem_key_year[2] = {1, 1}; // 2 - gen_oem_year
+int oem_key_year[2]; // 2 - gen_oem_year
 int oem_key_5[5];
 int oem_key_5_random[5];
 int retail_key_1[3];
 int retail_key_2[7];
 
-int oem_key_day = 0; // 1 - gen_oem_day
+int oem_key_day; // 1 - gen_oem_day
 int digit, i;
 int sum7;
 
