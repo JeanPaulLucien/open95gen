@@ -1,5 +1,5 @@
 /*
-Open95Keygen version 1.0 - Febuary 7th 2021
+Open95Keygen - JPL Edition v1.0 (Febuary 7th 2023)
 100% ANSI X3.159-1989 compliant (ANSI/C89)
 
 BSD 3-Clause License
@@ -65,12 +65,12 @@ void gen_oem_day()
 
 void gen_oem_year() 
 {
-    do
-    {
-        oem_key_year[0] = rand() % DIGIT_RANGE;
-        oem_key_year[1] = rand() % DIGIT_RANGE;
-    }
-    while((oem_key_year[0] != 9 || oem_key_year[1] < 5) && (oem_key_year[0] != 0 || oem_key_year[1] > 2));
+  do
+  {
+    oem_key_year[0] = rand() % DIGIT_RANGE;
+    oem_key_year[1] = rand() % DIGIT_RANGE;
+  }
+  while((oem_key_year[0] != 9 || oem_key_year[1] < 5) && (oem_key_year[0] != 0 || oem_key_year[1] > 2));
 }
 
 void gen_5digits_oem()
@@ -115,10 +115,10 @@ void gen_3digits_retail()
 
 void gen_7digits_retail()
 {
-    do
+  do
+  {
+    for(digit = 0; digit < 7; ++digit)
     {
-        for(digit = 0; digit < 7; ++digit)
-        {
             retail_key_2[digit] = rand() % DIGIT_RANGE;
         }
         sum7 = retail_key_2[0] + retail_key_2[1] + retail_key_2[2] + retail_key_2[3] + retail_key_2[4] + retail_key_2[5] + retail_key_2[6];
@@ -129,7 +129,7 @@ void gen_7digits_retail()
 int main()
 {
     srand(time(NULL));
-    printf("Open95Keygen by Alex Free (C)2021\n");
+    printf("Open95Keygen: JPL Edition 1.0 (c) 2021-...\n");
     gen_3digits_retail();
     gen_7digits_retail();
     printf("Retail Product Key: %d%d%d-%d%d%d%d%d%d%d\n", retail_key_1[0], retail_key_1[1], retail_key_1[2], retail_key_2[0], retail_key_2[1], retail_key_2[2], retail_key_2[3], retail_key_2[4], retail_key_2[5], retail_key_2[6]);
