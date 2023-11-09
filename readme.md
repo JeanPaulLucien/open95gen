@@ -7,6 +7,10 @@
 <h1>Open95Keygen</h1> 
 <p>Original: Alex Free<br>
 This: JPL</p>
+
+<h2>Github's mandatory 2FA notification</h2>
+JeanPaulLucien's lifestyle and Github's politics are different. JPL do not like to install more software on devices or live with smartphone. This repository was with release when the software has been refactored and minimized to 100 lines. Release is the reason why account requires 2FA. Release has been deleted.  
+
 <p>Open95Keygen is a portable open source program that generates random valid Product Keys (both OEM and Retail types) for Microsoft's Windows 95 and Windows NT 4.0 operating systems.</p>
 
 <p>The Windows 95/NT 4.0 OEM/Retail Product Key algorithms have been reverse engineered by many people. Open95Keygen is a <b><a href=https://en.wikipedia.org/wiki/Clean_room_design>clean room design</a></b> implementation not based on any existing software, it is written based on the specifications of the algorithm which is <b>inherently not copyright infringement</b>. I was inspired to write Open95Keygen after watching the YouTuber <a href=https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw>stack smashing's</a> video <a href=https://www.youtube.com/watch?v=cwyH59nACzQ>Why 111-1111111 is a valid Windows 95 key</a>.</p>
